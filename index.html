@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>DecaMedia</title>
+
+<!-- TODO : Common API -->
+<script type="text/javascript" language="javascript"
+	src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+<script type="text/javascript" language="javascript"
+	src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+<script language="javascript" type="text/javascript"
+	src="app/javascript/Main.js"></script>
+	
+<script src="app/jquery-2.1.4.min.js" charset="utf-8" type="text/javascript"></script>
+<script src="app/rs-plugin/js/jquery.themepunch.tools.min.js"
+	charset="utf-8" type="text/javascript"></script>
+<script src="app/rs-plugin/js/jquery.themepunch.revolution.min.js"
+	charset="utf-8" type="text/javascript"></script>
+<script src="app/rs-plugin/js/revolution-slider.js" charset="utf-8"
+	type="text/javascript"></script>
+<link rel="stylesheet" href="app/rs-plugin/css/animate.css" type="text/css"
+	media="screen">
+<link rel="stylesheet" href="app/rs-plugin/css/settings.css" type="text/css"
+	media="screen">
+<link rel="stylesheet" href="app/rs-plugin/css/plugins.css" type="text/css"
+	media="screen">
+<script src="app/javascript/app.js" charset="utf-8" type="text/javascript"></script>
+<style type="text/css">
+body {
+	margin: 0;
+}
+</style>
+</head>
+
+<body onload="Main.onLoad();" onunload="Main.onUnload();">
+	<div id="content"></div>
+	<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+	<object id='pluginNetwork' border=0 classid='clsid:SAMSUNG-INFOLINK-NETWORK'></object>
+	<object id='pluginObjectNNavi' border=0 classid='clsid:SAMSUNG-INFOLINK-NNAVI'></object>
+</body>
+</html>
